@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=form, initial-scale=1.0">
+    <title>Formulario de Registro - Mi Web</title>
+</head>
+<body>
+    <h1>Formulario de Registro</h1>
+    <form action="">
+        <!--Datos Personales-->
+        <label for="nombre" >Nombre:</label>
+        <input type="text" name="nombre" id="nombre" value="" placeholder="Ingrese el Nombre"><br><br>
+        <label for="apellido" >Apellidos:</label>
+        <input type="text" name="apellido" id="apellido" placeholder="Ingrese el/los Apellidos "><br><br>
+        <label for="Sexo">Sexo:</label>
+        <input type="radio" name="Sexo" id="Mujer"><label for="Mujer">Mujer</label>
+        <input type="radio" name="Sexo" id="Hombre"> <label for="Hombre">Hombre</label><br><br>
+        <label for="correo">Correo:</label>
+        <input type="email" name="correo" id="correo">
+        <p>
+        <label for="Poblacion">Población:</label>
+        <select name="Poblacion" id="Poblacion">
+            <option value="VC">----------</option>
+            <option value="SM">San Martin</option>
+            <option value="JU">Junin</option>
+            <option value="RI">Rivadavia</option>
+            <option value="SR">San Rafael</option>
+            <option value="GU">Guaymallen</option>
+            <option value="LP">La Paz</option>
+            <option value="SR">Santa Rosa</option>
+        </select></p>
+
+        <!-- Elecciones Personales-->
+        <input type="checkbox" name="novedades" id="novedades" checked ="True" />
+        <label for="novedades">Deseo recibir información sobre novedades y ofertas.</label><br>
+        <input type="checkbox" name="declaracion" id="declaracion"  />
+        <label for="declaracion">Declaro haber lido y aceptar las condiciones generales del programa y la normativa sobre protección de dato</label><br><br>
+        
+        <p>
+        <label for="descripcion">Descripción: </label>
+        <textarea name="descripcion" id="descripcion" cols="50" rows="5"></textarea>
+        </p>    
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
