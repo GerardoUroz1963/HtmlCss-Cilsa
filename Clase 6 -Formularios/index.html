@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=form, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form action="">
+        <label for="nombre" >Nombre:</label>
+        <input type="text" name="nombre" id="nombre" value="" placeholder="Ingrese el Nombre">
+        <label>Apellido</label>
+        <input type="text" name="apellido">
+        <label>Contraseña</label>
+        <input type="password" name="contraseña">
+        <p>Elige la comida que te gusta</p>
+        <label for="papas">Papas</label>
+        <input type="checkbox" name="papas" id="papas" />
+        <label for="hamburguesas">Hamburguesas</label>
+        <input type="checkbox" name="hamburguesas" id="hamburguesas" />
+        <label for="pizzas">Pizzas</label>
+        <input type="checkbox" name="pizzas" id="pizzas" />
+        <label for="panchos">Panchos</label>
+        <input type="checkbox" name="panchos" id="panchos" /> 
+        <p>Sexo:</p>
+        <input type="radio" name="Sexo" id="Mujer"><label for="Mujer">Mujer</label>
+        <input type="radio" name="Sexo" id="Hombre"> <label for="Hombre">Hombre</label>
+        <input type="radio" name="Sexo" id="Otro"><label for="Otro">Otro</label>
+        <br>
+        <label for="En qué pais vivis????"></label><br>
+        <label for="Pais">Pais:</label>
+        <select name="Pais" id="Pais">
+        <option value="Arg">Arg</option>
+        <option value="Bra">Bra</option>
+        <option value="Chi">Chi</option>
+        </select>
+        <p>
+        <label for="Comentarios">Comentarios: </label>
+        <textarea name="Comentarios" id="Comentarios" cols="50" rows="5"></textarea>
+        </p>    
+        <p><input type="reset"></p>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
