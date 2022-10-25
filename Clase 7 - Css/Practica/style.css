@@ -1,0 +1,50 @@
+* {
+   margin-left: 10px;
+   padding: 0px;
+}
+
+/*  Configuración El texto principal */
+body {
+    color: #00F;
+    background-color: #CFC;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body span {
+    margin-left: 0px;
+}
+
+/* El encabezado de nivel 1 */
+h1{
+    color: #F00;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+}
+
+/*El encabezado de nivel 2 */
+h2 {
+    color: #A00;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+
+/* El color de los campos de los datos del libro es verde oscuro */
+.cero {
+    
+    color: #060;
+}
+
+/* El texto "Internet" y la "Web" */
+.uno {
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+/* El texto "Hypertext Markup Language" ... */
+.dos {
+    color: #fff;
+    background-color: #000;
+    font-style: italic;
+}

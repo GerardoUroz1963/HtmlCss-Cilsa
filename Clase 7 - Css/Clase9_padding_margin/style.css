@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+h1 {
+    background-color: blue;
+    color: yellow;
+    width: 200px;
+    padding: 50px 20px 10px 0px;
+    border: solid 3px yellow;
+    margin: 0px 20px 0px 2opx
+}
+h2 {
+    background-color: yellow;
+    color: blue;
+    width: 200px;
+    padding: 50px 20px 10px 0px;
+    border: solid 3px yellow;
+    margin: 0px 20px 0px 2opx
+}
+
+div {
+    background-color: black;
+    width: 300px;
+    margin-left: 25% ;
+    padding-left: 25% ;
+
+}
