@@ -1,0 +1,61 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    padding-left:  250px;
+    background-color: red;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+}
+
+nav li {
+    display: inline-block;
+    width: 10%;
+    padding: 5px 10px;
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin-left: 250px;
+}
+
+nav li:hover {
+    color: red;
+    background-color: white;
+}
+
+main {
+    background-color: aqua;
+}
+
+footer {
+        background-color: black;
+    }
+
+.ContenedorMain{
+    width: 50%;
+    margin-left: 250px;
+    background-color: red;
+}
+
+.ContenedorFooter{
+    width: 50%;
+    margin-left: 250px;
+    background-color: cyan;
+}
+
+div img {
+    margin-top: 20px;
+}
+
+div p{
+
+}

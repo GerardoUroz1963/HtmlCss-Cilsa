@@ -1,0 +1,26 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+/*Estilo general para el div*/
+#slider {
+    width: 100%;
+    color: #fff;
+    background: #82d2f7;
+    text-align: center;
+    height: 300px;
+}
+
+/*Estilo para la etiqueta h1 */
+#slider {
+    margin-top: 0px;
+    padding-top: 120px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/* Estilo para el enlace */
+.btn-slider {
+    text-decoration: none;
+    text-transform: uppercase;
+}
